@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 # EventEase - Blazor Event Management Application
 
 EventEase is a single-page web application built with **Blazor WebAssembly** that allows users to browse events, edit event titles in real time, register for sessions, and track event attendance.
@@ -22,4 +22,4 @@ EventEase is a single-page web application built with **Blazor WebAssembly** tha
 - **Activity 1 (Code Generation):** Microsoft Copilot generated the initial boilerplate for `EventModel` and `EventCard.razor`, accelerating the setup of Bootstrap card layouts and two-way data binding syntax.
 - **Activity 2 (Debugging & Optimization):** Copilot helped diagnose potential `NullReferenceException` issues when navigating to non-existent event IDs and suggested adding `@key` directives to improve list rendering efficiency.
 - **Activity 3 (Comprehensive Features):** Copilot assisted in structuring the `EventService` state management pattern, wiring up `EditForm` validation components (`DataAnnotationsValidator`, `ValidationSummary`), and building the dynamic Attendance Tracker UI.
-EOF
+  
